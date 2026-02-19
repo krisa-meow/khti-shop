@@ -10,6 +10,7 @@ h2 {
 
 .category-card {
     padding: 14px;
+    cursor: pointer;
     margin: 5px;
     background: #0d0d0d;
     max-width: 350px;
@@ -20,6 +21,7 @@ h2 {
     font-size: 48px;
     background: #e11e11;
 }
+
 
 
 
