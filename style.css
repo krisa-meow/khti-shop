@@ -9,9 +9,13 @@ body {
     background-color: #ccd2df;
     color: #222;
     padding: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .datepicker {
+    display: flex;
+    justify-content: center;
     border-radius: 4px;
     position: relative;
     max-width: 200px;
@@ -127,7 +131,7 @@ body {
 }
 
 .dates span:hover {
-    background-color: rgba(119, 136, 153, 0.1);
+    background-color: rgba(119, 136, 153, 0.2);
 }
 
 .dates span.disabled {
