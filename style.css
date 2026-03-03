@@ -167,8 +167,7 @@ a{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    border-radius: 8px;
-    border: 1px solid #f8b983;
+    border-radius: 4px;
     color: slategray;
 }
 
