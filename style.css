@@ -7,7 +7,6 @@
 
 body {
     background-color: #facda1;
-    /* background-color: #f8b983; */
     color: #222;
 }
 
@@ -20,7 +19,7 @@ a{
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: #f8b983;
     margin-bottom: 50px;
 }
 
@@ -62,7 +61,7 @@ a{
 }
 
 .datepicker:focus-within {
-    border-color: slateblue;
+    border-color: #f8b983;
 }
 
 .datepicker::after {
@@ -222,7 +221,7 @@ a{
 }
 
 .action-menu button.apply {
-    background-color: slateblue;
+    background-color: #f8b983;
     color: #fff;
 }
 
@@ -231,7 +230,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: #f8b983;
     margin-top: auto;
     position: fixed;
     bottom: 0;
