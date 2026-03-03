@@ -39,6 +39,9 @@ a{
     font-size: 16px;
     font-weight: 600;
 }
+.header-navbar li:hover {
+    color: #f8b983;
+}
 
 .header-contact {
     display: flex;
