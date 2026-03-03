@@ -48,7 +48,7 @@ const displaySelection = () => {
     if (start && end) {
         const startDate = start.toLocaleDateString("ru");
         const endDate = end.toLocaleDateString("ru");
-        selectionEl.textContent = `${startDate} - ${endDate} = ${(end.getTime() - start.getTime()) / (3600000 * 24) + 1} дня(дней)`;
+        selectionEl.textContent = `${startDate} - ${endDate} = ${(end.getTime() - start.getTime()) / (3600000 * 24) + 1} дня(дней) = ${((end.getTime() - start.getTime()) / (3600000 * 24) + 1) * 450}`;
     }
 };
 
