@@ -53,13 +53,13 @@ const displaySelection = () => {
         let discountCost = 1;
 
         if (countDays >= 30) {
-            discountCost = 0.85;
+            selectionEl.textContent = `${startDate} - ${endDate} = ${countDays} дня(дней) = ${(countDays * 450) * 0.85} Руб. - 15%`;
         }
         else {
-            discountCost = 1;
+            selectionEl.textContent = `${startDate} - ${endDate} = ${countDays} дня(дней) = ${(countDays * 450) * 1} Руб.`;
         }
+
         
-        selectionEl.textContent = `${startDate} - ${endDate} = ${countDays} дня(дней) = ${(countDays * 450) * discountCost} Руб.`;
     }
 };
 
