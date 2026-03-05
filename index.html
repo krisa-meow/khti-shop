@@ -4,41 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Гостиницаа для животных «Милая Пума»</title>
+    <title>Гостиница для животных «Милая Пума»</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
+
     <script src="./js/script.js" defer></script>
 </head>
 <body>
+    <!-- Шапка сайта -->
     <header class="header">
-        
-        <a href="#" class="header__logo">
-            <img src="./images/logo.jpg" alt="Милая Пума">
-            <div class="logo__text">
-                <p>Милая Пума</p>
-                <p>ГОСТИНИЦА ДЛЯ ЖИВОТНЫХ</p>
+        <div class="header__container container">
+
+            <!-- Логотип + бренд -->
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">
+                    <img src="./images/logo.png" alt="header__logo" class="header__logo-img" style="height: 60px;">
+                    <div class="header__logo-title">
+                        <span>«МИЛАЯ ПУМА»</span>
+                        <span>ГОСТИНИЦА ДЛЯ ЖИВОТНЫХ</span>
+                    </div>
+                </a>
             </div>
-        </a>
 
-        <ul class="header__nav">
-            <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Номера и прайс</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Календарь бронирования</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Правила заселения</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
-        </ul>
+            <!-- Навигация сайта (desktop)-->
+            <div class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#" class="header__item-link">О нас</a></li>
+                    <li class="header__item"><a href="#" class="header__item-link">Номера и Прайс</a></li>
+                    <li class="header__item"><a href="#" class="header__item-link">Календарь Бронирования</a></li>
+                    <li class="header__item"><a href="#" class="header__item-link">Правила Заселения</a></li>
+                    <li class="header__item"><a href="#" class="header__item-link">Контакты</a></li>
+                </ul>
+            </div>
 
-        <ul class="header__contact">
-            <li class="contact__item"><a href="" class="contact__link">+7 (965) 506-66-25</a></li>
-            <li class="contact__item"><a href="" class="contact__link">УЛ. АТМОСФЕРНАЯ, 5, ЕКАТЕРИНБУРГ</a></li>
-        </ul>
+            <!-- Иконка меню (mobile) -->
+             <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+             </div>
 
+            <!-- Навигация сайта (mobile) -->
+            <div class="header__nav-mobile">
+                <a href="#" class="header__item-link">О нас</a>
+                <a href="#" class="header__item-link">Номера и Прайс</a>
+                <a href="#" class="header__item-link">Календарь Бронирования</a>
+                <a href="#" class="header__item-link">Правила Заселения</a>
+                <a href="#" class="header__item-link">Контакты</a>
+            </div>
+
+            <!-- Контактная информация -->
+            <div class="header__contact">
+                <div class="header__social">
+                    <a href="#" class="header__social-link"><i class="fa-brands fa-vk"></i></a>
+                    <a href="#" class="header__social-link"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="header__social-link"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+                <a href="#" class="header__contact-link">+7 (965) 506-66-25</a>
+                <a href="#" class="header__contact-link">Ул. Атмосферная, 5, Екатеринбург</a>
+            </div>
+
+        </div>
     </header>
 
-    <section class="main">
-        
-
-
-    </section>
 </body>
 </html>
