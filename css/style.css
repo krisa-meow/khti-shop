@@ -127,6 +127,7 @@ body {
 
 .header__social i:hover {
     color: var(--text-color-accent);
+    transform: scale(1.05);
 }
 
 .header__contact-list {
