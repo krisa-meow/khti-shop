@@ -32,7 +32,7 @@ body {
 .container {
     /* max-width: 1540px; */
     margin: 0 auto;
-    padding: 0 100px;
+    padding: 0 5vw;
 }
 
 .header {
@@ -43,7 +43,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 100px;
+    padding: 15px 5vw;
 }
 
 .header__logo {
