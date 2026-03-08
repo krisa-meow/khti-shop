@@ -123,6 +123,10 @@ body {
     transform: scale(1.05);
 }
 
+.social__link img {
+    height: 32px;
+}
+
 .contact__list {
     display: flex;
     flex-direction: column;
